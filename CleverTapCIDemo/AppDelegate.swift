@@ -7,6 +7,7 @@
 
 import UIKit
 import CleverTapSDK
+import Leanplum
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {

@@ -6,5 +6,5 @@ target 'CleverTapCIDemo' do
   use_frameworks!
 
   # Pods for CleverTapCIDemo
-  pod 'CleverTap-iOS-SDK'
+  pod 'Leanplum-iOS-SDK'
 end
