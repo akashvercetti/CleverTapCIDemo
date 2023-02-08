@@ -18,7 +18,7 @@ jobs:
     steps:
       - checkout
       - run: pod install # Install CocoaPods dependencies
-      - run: xcodebuild -workspace 'CleverTapCIDemo.xcworkspace' -scheme 'CleverTapCIDemo' -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=16.2'
+      - run: xcodebuild test -workspace 'CleverTapCIDemo.xcworkspace' -scheme 'CleverTapCIDemoTests' -sdk iphonesimulator
         # xcodebuild -workspace CleverTapCIDemo.xcworkspace -scheme CleverTapCIDemo -configuration "Debug" -sdk "iphonesimulator"
       # - run: fastlane run xcodebuild # Run tests using Fastlane
 
